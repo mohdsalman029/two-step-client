@@ -1,0 +1,44 @@
+/* OTPInput.module.css */
+
+.otpWrapper {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.otpContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+.otpInput:focus {
+  border-color: #2f8731;
+}
+
+.otpInput:valid {
+  border-color: #fff;
+}
+
+.otpInput:invalid {
+  border-color: #f44336;
+}
